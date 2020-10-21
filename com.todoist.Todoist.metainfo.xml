@@ -7,7 +7,7 @@
     <summary>“The best to-do list app right now” - The Verge</summary>
     <description>
         <p>Todoist is used by 20 million people to organize, plan, and collaborate on projects, both big and small.</p>
-        <p><em>Use Todoist to:</em></p>
+        <p>Use Todoist to:</p>
         <ul>
             <li>Capture and organize tasks the moment they pop into your head.</li>
             <li>Remember deadlines with reminders and due dates. </li>
@@ -19,12 +19,7 @@
         </ul>
         <p>Available on any device, Todoist will quickly become your hub for getting work and life organized.</p>
         <p>Happy organizing!</p>
-        <ul>
-            <li><ul>
-                    <li>•</li>
-                </ul>
-            </li>
-        </ul>
+        <ul><li>•</li></ul>
         <p>Questions? Feedback? Visit get.todoist.help or reach out on Twitter at @todoist.</p>
         <p>NOTE: This wrapper is not created by, affiliated with, or supported by Doist.</p>
     </description>
