@@ -17,18 +17,14 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 modules:
-  - name: squashfs
+  - name: squashfs-tools
     buildsystem: simple
     build-commands:
-      - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=${FLATPAK_DEST}/bin
+      - XZ_SUPPORT=1 make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=${FLATPAK_DEST}/bin
     sources:
       - type: archive
-        url: https://github.com/plougher/squashfs-tools/archive/4.4.tar.gz
-        sha256: a7fa4845e9908523c38d4acf92f8a41fdfcd19def41bd5090d7ad767a6dc75c3
-      - type: patch
-        path: xz_support.patch
-      - type: patch
-        path: gcc10.diff
+        url: https://github.com/plougher/squashfs-tools/archive/4.4-git.1.tar.gz
+        sha256: 9b89c3d2f0d0456e99fa3dd4429d45044044f0115acb0f15c441a4b9496d25a7
 
   - shared-modules/libsecret/libsecret.json
 
@@ -54,8 +50,9 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - unsquashfs todoist.snap 1>/dev/null
+          - unsquashfs -no-progress todoist.snap
           - rm todoist.snap
+          # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
           - touch todoist/chrome-sandbox && chmod +x todoist/chrome-sandbox
       - type: script
