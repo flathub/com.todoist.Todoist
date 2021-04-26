@@ -50,7 +50,9 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - unsquashfs -no-progress todoist.snap
+          # TODO: Spotify simply includes -no-progress here and does not create
+          # noise, but it does not work here
+          - unsquashfs todoist.snap 1>/dev/null
           - rm todoist.snap
           # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
