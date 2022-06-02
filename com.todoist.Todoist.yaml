@@ -32,7 +32,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D apply_extra "${FLATPAK_DEST}/bin/apply_extra"
-      - install todoist "${FLATPAK_DEST}/bin/"
+      - install todoist.sh "${FLATPAK_DEST}/bin/todoist"
     post-install:
       - install -p -Dm644 "icon.png" "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png"
       - install -Dm644 todoist.desktop "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
@@ -57,10 +57,8 @@ modules:
           # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
           - touch todoist/chrome-sandbox && chmod +x todoist/chrome-sandbox
-      - type: script
-        dest-filename: todoist
-        commands:
-          - TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/todoist/todoist "$@"
+      - type: file
+        path: todoist.sh
       - type: file
         path: com.todoist.Todoist.metainfo.xml
       - type: file
