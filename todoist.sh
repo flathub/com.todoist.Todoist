@@ -7,4 +7,4 @@ then
     FLAGS="$FLAGS --disable-gpu-sandbox"
 fi
 
-env TMPDIR="$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-com.todoist.Todoist}" zypak-wrapper /app/extra/todoist/todoist $FLAGS "$@"
+env TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID" zypak-wrapper /app/extra/todoist/todoist $FLAGS "$@"
