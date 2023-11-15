@@ -2,7 +2,7 @@
 
 # Workaround password store issue
 # Possibly https://github.com/electron/electron/issues/32598
-FLAGS='--password-store="basic"'
+FLAGS='--password-store=basic'
 
 if [[ $XDG_SESSION_TYPE == "wayland" ]] && [ -c /dev/nvidia0 ]
 then
