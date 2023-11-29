@@ -44,6 +44,7 @@
     <update_contact>jurf_AT_riseup.net</update_contact>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="8.11.1" date="2023-11-29"/>
         <release version="8.10.1" date="2023-11-14"/>
         <release version="8.4.3" date="2023-07-03"/>
         <release version="8.2.0" date="2023-05-11"/>
