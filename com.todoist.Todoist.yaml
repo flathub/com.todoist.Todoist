@@ -17,15 +17,8 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 modules:
-  - name: squashfs-tools
-    buildsystem: simple
-    build-commands:
-      - XZ_SUPPORT=1 make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=${FLATPAK_DEST}/bin
-    sources:
-      - type: archive
-        url: https://github.com/plougher/squashfs-tools/archive/4.4-git.1.tar.gz
-        sha256: 9b89c3d2f0d0456e99fa3dd4429d45044044f0115acb0f15c441a4b9496d25a7
-
+  - shared-modules/lzo/lzo.json
+  - shared-modules/squashfs-tools/squashfs-tools.json
   - shared-modules/libsecret/libsecret.json
 
   - name: todoist
