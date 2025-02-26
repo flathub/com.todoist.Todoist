@@ -19,7 +19,6 @@ finish-args:
 modules:
   - shared-modules/lzo/lzo.json
   - shared-modules/squashfs-tools/squashfs-tools.json
-  - shared-modules/libsecret/libsecret.json
 
   - name: todoist
     buildsystem: simple
