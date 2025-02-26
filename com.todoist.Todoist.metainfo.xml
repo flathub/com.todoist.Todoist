@@ -37,16 +37,19 @@
     <developer_name>Doist</developer_name>
     <screenshots>
         <screenshot type="default">
-            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2020/08/Todoist_Linux_1.png</image>
+            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/1-Organize-1726014014.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2020/08/Todoist_Linux_2.png</image>
+            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/2-Achieve-1726014014.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2020/08/Todoist_Linux_4.png</image>
+            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/3-Collaborate-1726014014.png</image>
         </screenshot>
         <screenshot>
-            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2020/08/Todoist_Linux_5.png</image>
+            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/4-Quick_Add-1726014014.png</image>
+        </screenshot>
+        <screenshot>
+            <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/5-Calendar-1726014014.png</image>
         </screenshot>
     </screenshots>
     <update_contact>jurf_AT_riseup.net</update_contact>
