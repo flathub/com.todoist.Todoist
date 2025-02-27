@@ -19,7 +19,6 @@ finish-args:
 modules:
   - shared-modules/lzo/lzo.json
   - shared-modules/squashfs-tools/squashfs-tools.json
-  - shared-modules/libsecret/libsecret.json
 
   - name: todoist
     buildsystem: simple
@@ -33,9 +32,9 @@ modules:
     sources:
       - type: extra-data
         filename: todoist.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1331.snap
-        sha256: 7d11da96450f3a128e14637a204ba7a3dedd79f941450749f5af513fcb67c170
-        size: 96223232
+        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1333.snap
+        sha256: abfd021e52bddba9cd25d628fa1adeff134aefb2cb95c20cd49c7da29275bbb9
+        size: 96534528
         x-checker-data:
           type: snapcraft
           name: todoist

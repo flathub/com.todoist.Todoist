@@ -6,5 +6,5 @@ Type=Application
 Icon=com.todoist.Todoist
 StartupWMClass=Todoist
 MimeType=x-scheme-handler/todoist;x-scheme-handler/com.todoist;
-Comment=The Best To-Do List App & Task Manager
+Comment=Todoist: Planner & Calendar
 Categories=Office;
