@@ -55,6 +55,7 @@
     <update_contact>raimue_AT_codingfarm.de</update_contact>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="9.13.1" date="2025-04-10"/>
         <release version="9.12.1" date="2025-03-07"/>
         <release version="9.11.1" date="2025-02-25"/>
         <release version="9.10.0" date="2025-01-30"/>
