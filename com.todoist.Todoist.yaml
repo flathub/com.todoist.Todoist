@@ -32,9 +32,9 @@ modules:
     sources:
       - type: extra-data
         filename: todoist.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1337.snap
-        sha256: 274cff16cf0992c6e8a46370d957bb5417e633856e671aba4078d93c0047627c
-        size: 96587776
+        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1340.snap
+        sha256: 7b69778e115fbf20b79db18468ce6c784e273746e8b1e46e794a999b81a0a0c0
+        size: 96694272
         x-checker-data:
           type: snapcraft
           name: todoist
