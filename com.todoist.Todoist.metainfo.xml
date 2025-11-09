@@ -38,18 +38,23 @@
     <screenshots>
         <screenshot type="default">
             <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/1-Organize-1726014014.png</image>
+            <caption>Organize work and life, finally</caption>
         </screenshot>
         <screenshot>
             <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/2-Achieve-1726014014.png</image>
+            <caption>Achieve more every day</caption>
         </screenshot>
         <screenshot>
             <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/3-Collaborate-1726014014.png</image>
+            <caption>Collaborate with your team</caption>
         </screenshot>
         <screenshot>
             <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/4-Quick_Add-1726014014.png</image>
+            <caption>Add tasks in moments</caption>
         </screenshot>
         <screenshot>
             <image type="source">https://dashboard.snapcraft.io/site_media/appmedia/2024/09/5-Calendar-1726014014.png</image>
+            <caption>Plan ahead and reach mental clarity</caption>
         </screenshot>
     </screenshots>
     <update_contact>raimue_AT_codingfarm.de</update_contact>
