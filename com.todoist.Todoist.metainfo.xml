@@ -6,6 +6,7 @@
     <name>Todoist</name>
     <summary>Planner &amp; Calendar</summary>
     <description>
+        <p>**NOTE: This wrapper is not created by, affiliated with, or supported by Doist.**</p>
         <p>Simple yet powerful to do list, habit tracker &amp; reminders. Organize work &amp; life.</p>
         <p>Trusted by over 47 million people, Todoist simplifies tasks for individuals and teams. Instantly declutter your mind, boost productivity and use it as a habit tracker.</p>
         <p>With a simple click, add your daily tasks and set reminders, enjoy multiple views like calendar, list and board, filter tasks by work and/or personal life, share notes, collaborate on projects, and achieve peace of mind.</p>
@@ -29,7 +30,6 @@
             <li>With natural language, write tasks like "tomorrow at 4pm" or “every other wednesday starting in two weeks” and Todoist will instantly parse it all out for you.</li>
             <li>Stay organized syncing across all other devices.</li>
         </ul>
-        <p>NOTE: This wrapper is not created by, affiliated with, or supported by Doist.</p>
     </description>
     <url type="help">https://todoist.com/help</url>
     <url type="homepage">https://todoist.com/</url>
