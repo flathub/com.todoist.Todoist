@@ -18,7 +18,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 modules:
-  - shared-modules/lzo/lzo.json
   - shared-modules/squashfs-tools/squashfs-tools.json
 
   - name: todoist
