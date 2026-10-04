@@ -49,6 +49,7 @@ modules:
           # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
           - touch todoist/chrome-sandbox && chmod +x todoist/chrome-sandbox
+          - /app/bin/patch-electron-desktop-filename todoist/app/resources/app.asar
       - type: file
         path: todoist.sh
       - type: file
