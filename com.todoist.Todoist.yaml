@@ -32,9 +32,9 @@ modules:
     sources:
       - type: extra-data
         filename: todoist.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1359.snap
-        sha256: befb451f257dcbd314d59de296b7339290586006f6a2255a92cb2e8838381998
-        size: 112746496
+        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1360.snap
+        sha256: 7949e797dbc736eb84c51190f87dba84bd08a12eb23440340a88c905566fe916
+        size: 113696768
         x-checker-data:
           type: snapcraft
           name: todoist
@@ -49,6 +49,7 @@ modules:
           # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
           - touch todoist/chrome-sandbox && chmod +x todoist/chrome-sandbox
+          - patch-electron-desktop-filename --desktop-filename com.todoist.Todoist todoist/app/resources/app.asar
       - type: file
         path: todoist.sh
       - type: file
