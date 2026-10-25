@@ -1,8 +1,8 @@
 app-id: com.todoist.Todoist
 base: org.electronjs.Electron2.BaseApp
-base-version: '25.08'
+base-version: '26.08'
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: todoist
 tags:
@@ -32,9 +32,9 @@ modules:
     sources:
       - type: extra-data
         filename: todoist.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1360.snap
-        sha256: 7949e797dbc736eb84c51190f87dba84bd08a12eb23440340a88c905566fe916
-        size: 113696768
+        url: https://api.snapcraft.io/api/v1/snaps/download/pP800io06HKwwkUmX8gDG1pFCfsinLHY_1361.snap
+        sha256: a702d8be60223424e977dbb4dd6e9bb9efd537e7149f6067cbabf071a1211e4f
+        size: 113876992
         x-checker-data:
           type: snapcraft
           name: todoist
@@ -42,9 +42,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          # TODO: Spotify simply includes -no-progress here and does not create
-          # noise, but it does not work here
-          - unsquashfs todoist.snap 1>/dev/null
+          - unsquashfs -quiet -no-progress todoist.snap
           - rm todoist.snap
           # TODO: This moves in a lot of junk too
           - mv squashfs-root todoist
