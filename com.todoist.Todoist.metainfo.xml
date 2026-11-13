@@ -2,7 +2,7 @@
 <component type="desktop-application">
     <id>com.todoist.Todoist</id>
     <metadata_license>CC-BY-SA</metadata_license>
-    <project_license>LicenseRef-proprietary</project_license>
+    <project_license>LicenseRef-proprietary=https://www.todoist.com/terms-of-service</project_license>
     <name>Todoist</name>
     <summary>Planner &amp; Calendar</summary>
     <description>
@@ -59,6 +59,7 @@
     <update_contact>raimue_AT_codingfarm.de</update_contact>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="9.36.2" date="2026-11-02"/>
         <release version="9.32.0" date="2026-10-23"/>
         <release version="9.31.0" date="2026-10-01"/>
         <release version="9.30.0" date="2026-08-04"/>
